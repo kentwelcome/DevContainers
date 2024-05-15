@@ -1,0 +1,22 @@
+{
+  "name": "Recce Dev Container",
+  "image": "infuseai/recce-pr-demo:latest",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    },
+    "extensions": [
+      // List of recommended extensions for the development environment
+    ]
+  },
+  "mounts": [
+    // List of mount points for your source code or other files
+  ],
+  "forwardPorts": [
+    // List of ports to forward from the container to the local machine
+    8000
+  ],
+  "postCreateCommand": "echo 'Post-create command executed.'"
+}
