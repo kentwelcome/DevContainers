@@ -1,6 +1,6 @@
 {
   "name": "Recce Dev Container",
-  "image": "infuseai/recce-pr-demo:latest",
+  "dockerFile": "Dockerfile",
   "customizations": {
     "vscode": {
       "settings": {

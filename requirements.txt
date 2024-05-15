@@ -1,0 +1,3 @@
+recce-nightly
+dbt-core<1.8.0
+dbt-duckdb
